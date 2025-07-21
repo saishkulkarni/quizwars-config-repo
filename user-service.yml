@@ -1,6 +1,13 @@
 server:
-  port: 0
+  port: 0  # Let Spring pick a free port
 
 spring:
   application:
     name: user-service
+  config:
+    import: configserver:  # 👈 This is the KEY to fix your error
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
