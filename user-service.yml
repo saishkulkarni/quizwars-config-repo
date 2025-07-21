@@ -1,11 +1,9 @@
 server:
-  port: 0  # Let Spring pick a free port
+  port: 0
 
 spring:
   application:
     name: user-service
-  config:
-    import: configserver:  # 👈 This is the KEY to fix your error
 
 eureka:
   client:
