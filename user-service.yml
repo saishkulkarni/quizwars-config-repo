@@ -6,7 +6,7 @@ spring:
     name: user-service
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/quizwars_users
+    url: jdbc:postgresql://localhost:5050/quizwars_users
     username: postgres
     password: root
 
