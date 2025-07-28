@@ -6,9 +6,9 @@ spring:
     name: user-service
 
   datasource:
-    url: jdbc:postgresql://localhost:5050/quizwars_users
+    url: jdbc:postgresql://postgres:vNRuwSfNuHerPBRyVPEWYllXBGsZzKhY@postgres.railway.internal:5432/railway
     username: postgres
-    password: root
+    password: vNRuwSfNuHerPBRyVPEWYllXBGsZzKhY
 
   jpa:
     hibernate:
