@@ -6,7 +6,7 @@ spring:
     name: user-service
 
   datasource:
-    url: jdbc:postgresql://postgres:vNRuwSfNuHerPBRyVPEWYllXBGsZzKhY@postgres.railway.internal:5432/railway
+    url: jdbc:postgresql://postgres:vNRuwSfNuHerPBRyVPEWYllXBGsZzKhY@ballast.proxy.rlwy.net:57873/railway
     username: postgres
     password: vNRuwSfNuHerPBRyVPEWYllXBGsZzKhY
 
