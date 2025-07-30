@@ -6,9 +6,9 @@ spring:
     name: user-service
 
   datasource:
-    url: jdbc:postgresql://postgres:vNRuwSfNuHerPBRyVPEWYllXBGsZzKhY@ballast.proxy.rlwy.net:57873/railway
+    url: jdbc:postgresql://localhost:5433/postgres
     username: postgres
-    password: vNRuwSfNuHerPBRyVPEWYllXBGsZzKhY
+    password: root
 
   jpa:
     hibernate:
@@ -17,6 +17,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+
 
   # Kafka configuration (Docker container)
   kafka:
